@@ -8,7 +8,7 @@ const LaunchFilters=({filterData})=>{
         <div className="filter-launch">
             <h1>Filters</h1>
 
-            {filterData.map(categoryData=>  <FilterCategory categoryData={categoryData}/>)}
+            {filterData.map(categoryData=>  <FilterCategory categoryData={categoryData} key={categoryData.displayName}/>)}
 
         </div>
 

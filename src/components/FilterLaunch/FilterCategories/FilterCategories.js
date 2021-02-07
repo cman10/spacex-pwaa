@@ -9,7 +9,7 @@ return(
     <h3 className="filter-type">{categoryData.displayName}</h3>
         <div className="filter-values">
       
-        {categoryData.data.map(filterData=> <FilterItem value={filterData}
+        {categoryData.data.map(filterData=> <FilterItem value={filterData} key={filterData}
          isActive={filterData===categoryData.activeItem}/>)}
 
         </div>

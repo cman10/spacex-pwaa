@@ -1,13 +1,14 @@
 import React from 'react';
 import './LaunchDetailItem.css'
 
-const LaunchDetailItem=({title,year,successLaunch,successLand,flightNum,missionId})=>{
+const LaunchDetailItem=({title,year,successLaunch,successLand,flightNum,missionId,unqKey})=>{
     return(
         <div>
         <div className="launch-detail type-list">
             <p className="detail-label">{title}#{flightNum}</p>
             <ul className="detail-value">
-            {missionId.length? missionId.map(id=> <li>{id}</li>):<li>NA</li>}
+            {missionId.length? missionId.map(id=> <li key={id}>{id}</li>)
+            :<li key={unqKey}>NA</li>}
             </ul>
             </div>
             <div className="launch-detail">

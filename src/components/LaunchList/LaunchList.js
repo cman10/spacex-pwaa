@@ -10,7 +10,7 @@ class LaunchListItem extends React.Component{
 
 
     render(){
-        console.log(this.props.flightdata);
+       
     return(
     <div>{this.props.loading || !this.props.flightdata? (<Spinner/>)
         :

@@ -46,7 +46,7 @@ class Structure extends React.Component{
             <Header/>
         {
             <main className="main-container">
-                <LaunchFilters filterData={this.state.filterData}/>
+                <LaunchFilters filterData={this.state.filterData} />
                 <LaunchListItem loading={this.state.loading} flightdata={this.state.flightdata}/>
             </main>
         }
