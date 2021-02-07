@@ -1,0 +1,23 @@
+.filter-launch{
+    background: white;
+    border-radius: 8px;
+    padding: 10px 10px 40px 10px;
+    align-self: start;
+}
+
+.filter-launch h1{
+    margin: 0;
+    font-size: 30px;
+  }
+  
+  @media screen and (min-width: 701px) {
+    .filter-launch {
+      padding: 10px 0px 40px 0px;
+      font-size: 8px;
+    }
+    .filter-launch h1{
+      padding: 0 10px;
+      font-size: 22px;
+    }
+  }
+  
