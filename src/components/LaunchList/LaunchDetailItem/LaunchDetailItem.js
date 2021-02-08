@@ -16,12 +16,12 @@ const LaunchDetailItem=({title,year,successLaunch,successLand,flightNum,missionI
             </div>
 
                 <div className="launch-detail">
-                <p className="detail-label">Successful Launch:</p><p className="detail-value">{successLaunch.toString()}</p>
+                <p className="detail-label">Successful Launch:</p><p className="detail-value">{successLaunch && successLaunch.toString()}</p>
                 </div>
 
                 <div className="launch-detail">
                     <p className="detail-label">Successful Landing:</p>
-                    <p className="detail-value">{successLand.toString()}</p>
+                    <p className="detail-value">{successLand && successLand.toString()}</p>
                 </div>
                 </div>
       
