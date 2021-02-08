@@ -1,5 +1,4 @@
 import React from 'react';
-import FilterCategory from '../FilterCategories/FilterCategories';
 import './FilterItem.css';
 
 const FilterItem=({value,isActive, onItemClick})=>{
