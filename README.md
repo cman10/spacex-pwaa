@@ -1,16 +1,16 @@
-A simple progressive web app to show spacex launches using spacex v3 api,The app is designed ina  modular way and 
+A simple progressive web app to show spacex launches using spacex v3 api,The app is designed in a modular fashion and here is
 A mockup of components used :
-<p align="center">
-  <img src="https://ibb.co/DVmYpv6" width="350" title="hover text">
-  <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text">
-</p>
-![alt text]()
 
-## Available Scripts
+![alt](https://user-images.githubusercontent.com/20711455/107396376-b6cf5300-6b23-11eb-9402-c9b3e6f58cfe.png)
 
-In the project directory, you can run:
+This repo is hosted on netlify and production version can be accessed from :
+https://admiring-bell-b326ec.netlify.app/
 
-### `yarn start`
+Lighthouse score of this web app is as follows:
+![alt](https://user-images.githubusercontent.com/20711455/107396876-2e9d7d80-6b24-11eb-9b24-403007645db6.png)
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+
+
